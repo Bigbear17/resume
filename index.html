@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <script src="//at.alicdn.com/t/font_1894191_yszblwd692n.js"></script>
+    <head>
+        <title>熊峰的个人简历</title>
+    </head>
+    <body>
+        <div class="topNavbar "> 
+            <div class="topNavbarInner clearfix">
+                <a href="#" class="logo">
+                    <span class="rs">RS</span><span class="card">card</span>
+                </a>
+                <nav style="float: right;">
+                    <ul class="clearfix">
+                        <li >
+                            <a href="#">关于</a>
+                        </li>
+                        <li >
+                            <a href="#">技能</a>
+                        </li>
+                        <li >
+                            <a href="#">作品</a>
+                        </li>
+                        <li >
+                            <a href="#">博客</a>
+                        </li>
+                        <li >
+                            <a href="#">日历</a>
+                        </li>
+                        <li >
+                            <a href="#">联系方式</a>
+                        </li>
+                        <li >
+                            <a href="#">其他</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="mask">
+            </div>
+        </div>
+        <main class="mainCard">
+            <div class="useCard">
+                <div class="pictureAndtext clearfix">
+                    <div class="picture">
+                        <img src="./image/avatar.jpg" alt="头像">
+                    </div>
+                    <div class="text">
+                            <span class="welcome">Hello
+                                <span class="triangle"></span>
+                            </span>
+                            <h1>熊峰</h1>
+                            <p>前端开发工程师</p>
+                            <hr>
+                            <dl>
+                                <dt>年龄</dt>
+                                <dd>27</dd>
+                                <dt>所在城市</dt>
+                                <dd>安徽</dd>
+                                <dt>邮箱</dt>
+                                <dd>preeyfeng@163.com</dd>
+                                <dt>手机</dt>
+                                <dd>18355386717 </dd>  
+                            </dl>
+                    </div>
+                </div>
+                    <footer class="media">
+                        <a href="#">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-weibo"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-wechat"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-qq1"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-github1"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-juejin"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-twiter"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-youxiang"></use>
+                            </svg>
+                        </a>                        
+                    </footer>
+                </div>
+            </div>
+            <p class="downloadResume-wrapper">
+                <a href="./熊峰简历.pdf" class="downloadResume" target="_blank" download>下载简历</a>
+            </p>
+            <p class="selfIntrodction"> 
+                熊峰， 资深前端工程师，资深前端讲师，现在在 饥人谷 教前端课程。<br>
+                技能：前端开发，Rails 开发，Node.js 开发
+            </p>
+        </main>
+        <section class="sklls">
+            <h2>
+                技能
+            </h2>
+            <ol class="skllsOl clearfix">
+                <li class="skllsLi"> 
+                    <h3>
+                        HTML5&AMP;CSS3
+                    </h3>
+                    <div class="progressBar">
+                         <div class="progress"></div>
+                    </div>
+                </li>
+                <li class="skllsLi">
+                    <h3>
+                        Javascript
+                    </h3>
+                    <div class="progressBar">
+                         <div class="progress"></div>
+                    </div>
+                </li> 
+                <li class="skllsLi">
+                    <h3>
+                        JQuery 
+                    </h3>
+                    <div class="progressBar">
+                         <div class="progress"></div>
+                    </div>
+                </li> 
+                <li class="skllsLi">
+                    <h3>
+                        Vue.js
+                    </h3>
+                    <div class="progressBar">
+                         <div class="progress"></div>
+                    </div>
+                </li>
+                 <li class="skllsLi">
+                    <h3>
+                        react.js
+                    </h3>
+                    <div class="progressBar">
+                         <div class="progress"></div>
+                    </div>
+                </li>
+                 <li class="skllsLi">
+                    <h3>
+                        HTTP
+                    </h3>
+                    <div class="progressBar">
+                         <div class="progress"></div>
+                    </div>
+                </li>
+            </ol>
+        </section>
+        <section class="protfolio">
+            <h2>
+                作品集
+            </h2>
+            <nav>
+                <ol class="clearfix">
+                    <li id="protfolio1">所有</li>
+                    <li id="protfolio2">框架</li>
+                    <li id="protfolio3">原生&amp;CSS</li>
+                </ol>
+                <div id="protfolioBar1" class="protfolioBar state-1">
+                    <div class="barIner"></div>
+                </div>
+            </nav>
+            <script>
+                protfolio1.onclick= function(){
+                    protfolioBar1.className = 'protfolioBar state-1'
+                }
+                protfolio2.onclick= function(){
+                    protfolioBar1.className = 'protfolioBar state-2'
+                }
+                protfolio3.onclick= function(){
+                    protfolioBar1.className = 'protfolioBar state-3'
+                }
+            </script>
+            <div class="works">
+                <div class="big">
+                    <img src="./image/1.jpg" alt="作品1">
+                </div>
+                <div class="small1">
+                    <img src="./image/2.jpg" alt="作品2">
+                </div>
+                <div class="small2">
+                    <img src="./image/3.jpg" alt="作品3">
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
